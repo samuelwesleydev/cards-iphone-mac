@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px){
+    .container{
+        height: auto;
+    }
+    .produtos{
+        display: grid;
+        justify-content: center;
+        width: 359px;
+        height: auto;
+        gap: 30px;
+        grid-template-rows: repeat(2, 1fr);
+        margin: 07.0rem 0;
+        transition: ease-in-out 0.4s;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+     .produtos{
+        grid-template-rows: repeat(2, 1fr);
+        width:29.8rem;
+        margin: 5.0rem 0;
+    }
+    .produto{
+        width: 29.0rem;
+    }
+    .buttons-of-buy .button-buy > a, 
+    .button-more-details > a{
+        font-size:1.3rem;
+    }
+}
